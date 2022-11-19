@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edg">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>personal  portfolio webste</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/fd031cc3e1.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <div class="logo"><h1>K<span>onneh</span></h1></div>
+                    <ul id="sidememu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About Me</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact Me</a></li>
+                        <i class="fas fa-times" onclick="closememu()"></i>
+                    </ul>
+                    <i class="fas fa-bars" onclick="openmemu()"></i>
+                </nav>
+                <div class="header-text">
+                    <p>UI/UX Designer</p>
+                    <h1>Hi, I'm <span>Mohamed K</span><br>From Sierra Leone</h1>
+
+                </div>
+            </div>
+        </div>
+        <div>
+            <!--------------about---------------->
+            <div id="about">
+                <div class="container">
+                    <div class="row">
+                        <div class="about-col-1">
+                            <img src="img3.jpg">
+                        </div>
+                        <div class="about-col-2">
+                            <h1 class="sub-title">About Me</h1>
+                            <p>I would describe myself as kind, generous and helpful person. 
+                                I love to help my frineds out by giving advics with their problems, 
+                                and by having their back whenever they need it from supporting them in activies 
+                                such as going to band concerts to being there emotionally when break up happens
+                                . I would decribe myself as a very intelligent, and curious and wondrous person. 
+                                I like to questions things that i am intrested or unfamiliar with. 
+                                Thirdly, I am also dedicted and hardindworking reaching my goals and visions.
+                                 Finally i would decrie myself as a shy person.
+                                I like to keep myself most of the time stand out in the crowd...</p>
+                                <div class="tab-titles">
+                                    <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                                    <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                                    <p class="tab-links" onclick="opentab('Education')">Education</p>
+                            </div>
+                            <div class="tab-contents acttive-tab" id="skills">
+                                <ul>
+                                    <li><span>UI?UX</span><br>Designing Web/App interface</li>
+                                    <li><span>Web Development</span><br>Web app Development</li>
+                                    <li><span>App Development</span><br>Building Andriod/ios apps</li>
+                                </ul>
+                            </div>
+                            <div class="tab-contents" id="Experience">
+                                <ul>
+                                    <li><span>UI?UX</span><br>Designing Web/App interface</li>
+                                    <li><span>Web Development</span><br>Web app Development</li>
+                                    <li><span>App Development</span><br>Building Andriod/ios apps</li>
+                                </ul>
+                        </div>
+                        <div class="tab-contents" id="Education">
+                            <ul>
+                                <li><span>UI?UX</span><br>Designing Web/App interface</li>
+                                <li><span>Web Development</span><br>Web app Development</li>
+                                <li><span>App Development</span><br>Building Andriod/ios apps</li>
+                            </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+      <!-----------Services-------------->  
+      <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                  <h2>Web Design</h2> 
+                  <p>I  have the abelity design many webpages, with my knowledge and skills to
+                     add more value human capital and company.</p>
+                     <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-sharp fa-solid fa-crop-simple"></i>
+                    <h2>UI/UX Design</h2> 
+                    <p>I  have the abelity design many webpages, with my knowledge and skills to
+                       add more value human capital and company.</p>
+                       <a href="#">Learn more</a>
+                  </div>
+                  <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>APP Development</h2> 
+                    <p>I  have the abelity design many webpages, with my knowledge and skills to
+                       add more value human capital and company.</p>
+                       <a href="#">Learn more</a>
+                  </div>
+            </div>
+        </div>
+      </div>
+      <!-------------Portfolio----------------->
+      <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1> 
+            <div class="work-last">
+                <div class="work">
+                    <img src="img.png2.jpg">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>The app connects you the talented people around the world.
+                            Download it from play store</p>
+                           <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="img.png2.jpg">
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        <p>The app connects you the talented people around the world.
+                            Download it from play store</p>
+                           <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="img.png2.jpg">
+                    <div class="layer">
+                        <h3>Online Shopping App</h3>
+                        <p>The app connects u the talented people around the world.
+                            Download it from play store
+                        </p>
+                           <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="bth">See More</a>  
+        </div>
+      </div>
+     <!--------------Contact Me---------------->
+     <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-regular fa-envelope"></i>mohkonneh028@gmail.com</p> 
+                    <p><i class="fa-solid fa-phone-volume"></i>+232-78-733-964</p>
+                    <div class="social-icons">
+                        <a href="https://facebook.com/"><i class="fab fa-facebook"></i></a>
+                        <a href="https://twitter.com"><i class="fab fa-twitter-square"></i></a>
+                        <a href="https://instagram.com"><i class="fab fa-instagram"></i></a>
+                        <a href="https://linkedin.com"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                    <a href="MY CV-Konneh.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                  <form>
+                    <input type="text" name="Name" placeholder="Enter your name" required>
+                    <input type="email" name="email" placeholder="Enter your email" required>
+                    <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                  </form>  
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright &copy; Mohamed. Made by Konneh Jr.</p>
+        </div>
+     </div>
+     <script>
+     
+        var sidememu = document.getElementById("sidememu");
+
+        function openmemu(){
+            sidememu.style.right = "0"
+        }
+        function closememu(){
+            sidememu.style.right = "-200px"
+        }
+
+     </script>
+      
+
+    </body>
+</html>
